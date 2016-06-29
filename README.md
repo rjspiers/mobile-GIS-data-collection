@@ -74,9 +74,6 @@ iShare Studio workflow job:
 
 ![workflow job image](https://raw.githubusercontent.com/rjspiers/mobile-GIS-data-collection/master/iShare_studio_job.PNG)
 
-## Nice to have in iShare
-It would be nice if iShare supported Datashare connection or Spatial Data Connection to Fulcrum (or other mobile app like [GIS Cloud](http://www.giscloud.com/)) from within iShare Studio. Either by providing prepared python scripts for download/upload with a config file for variables, or by using webhooks to supply info to iShare.
-
 ## Links
 - [Astun - iShare](https://astuntechnology.com/)
 - [Fulcrum](http://www.fulcrumapp.com/)
