@@ -5,6 +5,14 @@
 ![flow chart image](https://raw.githubusercontent.com/rjspiers/mobile-GIS-data-collection/master/gis%20flowchart%20for%20github.png)
 
 
+## Recording data in Fulcrum
+
+Example form to report faults with assets on the Android/iOS Fulcrum app:
+
+<img src="https://raw.githubusercontent.com/rjspiers/mobile-GIS-data-collection/master/fulcrum_form_example.png" width=30%>
+
+## Importing data from Fulcrum
+
 This python script [fulcrum_access_data.py](fulcrum_access_data.py) connects to a Fulcrum form, stores the form records in a variable, checks if fulcrum_id already exists in a PostGIS table and if not inserts the new records.
 
 ## Running the script
@@ -67,4 +75,9 @@ iShare Studio workflow job:
 ![workflow job image](https://raw.githubusercontent.com/rjspiers/mobile-GIS-data-collection/master/iShare_studio_job.PNG)
 
 ## Nice to have in iShare
-It would be nice if Astun were to support Datashare connection or Spatial Data Connection to Fulcrum (or other mobile app like [GIS Cloud](http://www.giscloud.com/)) from within iShare Studio. Either by providing prepared python scripts for download/upload with a config file for variables, or by using webhooks to supply info to iShare.
+It would be nice if iShare supported Datashare connection or Spatial Data Connection to Fulcrum (or other mobile app like [GIS Cloud](http://www.giscloud.com/)) from within iShare Studio. Either by providing prepared python scripts for download/upload with a config file for variables, or by using webhooks to supply info to iShare.
+
+## Links
+- [Astun - iShare](https://astuntechnology.com/)
+- [Fulcrum](http://www.fulcrumapp.com/)
+- [GIS Cloud](http://www.giscloud.com/)
