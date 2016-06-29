@@ -16,22 +16,31 @@ Change the variables for
 	```
 
 1. Form ID: 
+	
 	```python
 	records = fulcrum.records.search(url_params={'form_id': '485688d9-aca6-4586-a624-260b0ca71c6a'})
 	```
+
 1. Fields to select from the Fulcrum form: 
+	
 	```python
 	records['records'][i]['id']
 	```
+
 1. PostGIS db connection: 
+	
 	```python
 	conn = psycopg2.connect(dbname="dbname", port=0000, user="user", password="password", host="host")
 	```
+
 1. The fields in query variable 
+	
 	```python
 	query = """INSERT..."""
 	```
+
 1. And the corresponding list items in the cur.execute (line 106-115): 
+	
 	```python
 	f[0], # fulcrum_id
 	```
@@ -48,6 +57,7 @@ C:\Python27\python.exe fulcrum_access_data.py
 Schedule the script as a job in iShare Studio by using a .bat file to issue python commands.
 
 Batch file content:
+
 ```batch
 C:\Python27\python.exe fulcrum_access_data.py
 ```
